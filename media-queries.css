@@ -1,0 +1,12 @@
+.large-screens {
+  display: none;
+}
+
+@media (min-width: 300px) {
+  .large-screens {
+    display: block;
+  }
+  .small-screens {
+    display: none;
+  }
+}
